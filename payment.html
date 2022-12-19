@@ -1,0 +1,2812 @@
+<html lang="vi" xmlns="http://www.w3.org/1999/html" wtx-context="E0276AF5-2E1D-4024-B0F4-A5D486E4D53B">
+    <head> 
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> BIOSKIN | Your Skincare Friend </title>
+        <link rel="shortcut icon" type="image/x-icon" href="./assets/image/bioskin_logo.png">
+        <link rel="icon" href="./assets/image/bioskin_logo.png" type="image/x-icon">
+        <style>
+            :root {
+                --blue: #007bff;
+                --indigo: #6610f2;
+                --purple: #6f42c1;
+                --pink: #e83e8c;
+                --red: #dc3545;
+                --orange: #fd7e14;
+                --yellow: #ffc107;
+                --green: #28a745;
+                --teal: #20c997;
+                --cyan: #17a2b8;
+                --white: #fff;
+                --gray: #6c757d;
+                --gray-dark: #343a40;
+                --primary: #007bff;
+                --secondary: #6c757d;
+                --success: #28a745;
+                --info: #17a2b8;
+                --warning: #ffc107;
+                --danger: #dc3545;
+                --light: #f8f9fa;
+                --dark: #343a40;
+                --breakpoint-xs: 0;
+                --breakpoint-sm: 576px;
+                --breakpoint-md: 768px;
+                --breakpoint-lg: 992px;
+                --breakpoint-xl: 1200px;
+                --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+            }
+
+            *,
+            ::after,
+            ::before {
+                box-sizing: border-box
+            }
+
+            html {
+                font-family: sans-serif;
+                line-height: 1.15;
+                -webkit-text-size-adjust: 100%;
+                -ms-text-size-adjust: 100%;
+                -ms-overflow-style: scrollbar;
+            }
+
+            @-ms-viewport {
+                width: device-width
+            }
+
+            header,
+            nav {
+                display: block
+            }
+
+            body {
+                margin: 0;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #212529;
+                text-align: left;
+                background-color: #fff
+            }
+
+            h4,
+            h5 {
+                margin-top: 0;
+                margin-bottom: .5rem
+            }
+
+            p {
+                margin-top: 0;
+                margin-bottom: 1rem
+            }
+
+            ol,
+            ul {
+                margin-top: 0;
+                margin-bottom: 1rem
+            }
+
+            strong {
+                font-weight: bolder
+            }
+
+            a {
+                color: #000;
+                text-decoration: none;
+                background-color: transparent;
+                -webkit-text-decoration-skip: objects
+            }
+
+            a:not([href]):not([tabindex]) {
+                color: inherit;
+                text-decoration: none
+            }
+
+            img {
+                vertical-align: middle;
+                border-style: none
+            }
+
+            svg {
+                overflow: hidden;
+                vertical-align: middle
+            }
+
+            table {
+                border-collapse: collapse
+            }
+
+            th {
+                text-align: inherit
+            }
+
+            label {
+                display: inline-block;
+                margin-bottom: .5rem
+            }
+
+            button {
+                border-radius: 0
+            }
+
+            button,
+            input,
+            select,
+            textarea {
+                margin: 0;
+                font-family: inherit;
+                font-size: inherit;
+                line-height: inherit
+            }
+
+            button,
+            input {
+                overflow: visible
+            }
+
+            button,
+            select {
+                text-transform: none
+            }
+
+            [type=submit],
+            button,
+            /* html [type=button] {
+                -webkit-appearance: button
+            } */
+
+            [type=button]::-moz-focus-inner,
+            [type=submit]::-moz-focus-inner,
+            button::-moz-focus-inner {
+                padding: 0;
+                border-style: none
+            }
+
+            input[type=checkbox],
+            input[type=radio] {
+                box-sizing: border-box;
+                padding: 0
+            }
+
+            textarea {
+                overflow: auto;
+                resize: vertical
+            }
+
+            ::-webkit-file-upload-button {
+                font: inherit;
+                -webkit-appearance: button
+            }
+
+            [hidden] {
+                display: none !important
+            }
+
+            h4,
+            h5 {
+                margin-bottom: .5rem;
+                font-family: inherit;
+                font-weight: 500;
+                line-height: 1.2;
+                color: inherit
+            }
+
+            h4 {
+                font-size: 1.5rem
+            }
+
+            h5 {
+                font-size: 1.25rem
+            }
+
+            .list-inline {
+                padding-left: 0;
+                list-style: none
+            }
+
+            .list-inline-item {
+                display: inline-block
+            }
+
+            .list-inline-item:not(:last-child) {
+                margin-right: .5rem
+            }
+
+            .container {
+                width: 100%;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-right: auto;
+                margin-left: auto
+            }
+
+            @media(min-width:576px) {
+                .container {
+                    max-width: 540px
+                }
+            }
+
+            @media(min-width:768px) {
+                .container {
+                    max-width: 720px
+                }
+            }
+
+            @media(min-width:992px) {
+                .container {
+                    max-width: 960px
+                }
+            }
+
+            @media(min-width:1200px) {
+                .container {
+                    max-width: 1140px
+                }
+            }
+
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                margin-right: -15px;
+                margin-left: -15px
+            }
+
+            .col-12,
+            .col-lg-4,
+            .col-lg-6,
+            .col-lg-8,
+            .col-md-10,
+            .col-md-12,
+            .col-md-2 {
+                position: relative;
+                width: 100%;
+                min-height: 1px;
+                padding-right: 15px;
+                padding-left: 15px
+            }
+
+            .col-12 {
+                flex: 0 0 100%;
+                max-width: 100%
+            }
+
+            @media(min-width:768px) {
+                .col-md-2 {
+                    flex: 0 0 16.6666666667%;
+                    max-width: 16.6666666667%
+                }
+
+                .col-md-10 {
+                    flex: 0 0 83.3333333333%;
+                    max-width: 83.3333333333%
+                }
+
+                .col-md-12 {
+                    flex: 0 0 100%;
+                    max-width: 100%
+                }
+
+                .offset-md-2 {
+                    margin-left: 16.6666666667%
+                }
+            }
+
+            @media(min-width:992px) {
+                .col-lg-4 {
+                    flex: 0 0 33.3333333333%;
+                    max-width: 33.3333333333%
+                }
+
+                .col-lg-6 {
+                    flex: 0 0 50%;
+                    max-width: 50%
+                }
+
+                .col-lg-8 {
+                    flex: 0 0 66.6666666667%;
+                    max-width: 66.6666666667%
+                }
+
+                .offset-lg-4 {
+                    margin-left: 33.3333333333%
+                }
+            }
+
+            .form-control {
+                display: block;
+                width: 100%;
+                height: calc(2.25rem+2px);
+                padding: .375rem .75rem;
+                font-size: 1rem;
+                line-height: 1.5;
+                color: #495057;
+                background-color: #fff;
+                background-clip: padding-box;
+                border: 1px solid #ced4da;
+                border-radius: .25rem
+            }
+
+            .form-control::-ms-expand {
+                background-color: transparent;
+                border: 0
+            }
+
+            .col-form-label {
+                padding-top: calc(.375rem+1px);
+                padding-bottom: calc(.375rem+1px);
+                margin-bottom: 0;
+                font-size: inherit;
+                line-height: 1.5
+            }
+
+            textarea.form-control {
+                height: auto
+            }
+
+            .form-group {
+                margin-bottom: 1rem
+            }
+
+            .form-check {
+                position: relative;
+                display: block;
+                padding-left: 1.25rem
+            }
+
+            .form-check-input {
+                position: absolute;
+                margin-top: .3rem;
+                margin-left: -1.25rem
+            }
+
+            .form-check-label {
+                margin-bottom: 0
+            }
+
+            .form-check-inline {
+                display: inline-flex;
+                align-items: center;
+                padding-left: 0;
+                margin-right: .75rem
+            }
+
+            .form-check-inline .form-check-input {
+                position: static;
+                margin-top: 0;
+                margin-right: .3125rem;
+                margin-left: 0
+            }
+
+            .btn {
+                display: inline-block;
+                font-weight: 400;
+                text-align: center;
+                white-space: nowrap;
+                vertical-align: middle;
+                border: 1px solid transparent;
+                padding: .375rem .75rem;
+                font-size: 1rem;
+                line-height: 1.5;
+                border-radius: .25rem
+            }
+
+            .btn-block {
+                display: block;
+                width: 100%
+            }
+
+            .custom-select {
+                display: inline-block;
+                width: 100%;
+                height: calc(2.25rem+2px);
+                padding: .375rem 1.75rem .375rem .75rem;
+                line-height: 1.5;
+                color: #495057;
+                vertical-align: middle;
+                background: #fff url("data:image/svg+xml;charset=utf8,%3Csvgxmlns='http://www.w3.org/2000/svg'viewBox='0045'%3E%3Cpathfill='%23343a40'd='M20L02h4zm05L03h4z'/%3E%3C/svg%3E") no-repeat right .75rem center;
+                background-size: 8px 10px;
+                border: 1px solid #ced4da;
+                border-radius: .25rem;
+                appearance: none
+            }
+
+            .custom-select::-ms-expand {
+                opacity: 0
+            }
+
+            .breadcrumb {
+                display: flex;
+                flex-wrap: wrap;
+                padding: .75rem 1rem;
+                margin-bottom: 1rem;
+                list-style: none;
+                background-color: #e9ecef;
+                border-radius: .25rem
+            }
+
+            .breadcrumb-item+.breadcrumb-item {
+                padding-left: .5rem
+            }
+
+            .breadcrumb-item+.breadcrumb-item::before {
+                display: inline-block;
+                padding-right: .5rem;
+                color: #6c757d;
+                content: "/"
+            }
+
+            .align-middle {
+                vertical-align: middle !important
+            }
+
+            .rounded-0 {
+                border-radius: 0 !important
+            }
+
+            .clearfix::after {
+                display: block;
+                clear: both;
+                content: ""
+            }
+
+            .d-none {
+                display: none !important
+            }
+
+            .d-inline-block {
+                display: inline-block !important
+            }
+
+            .d-flex {
+                display: flex !important
+            }
+
+            .flex-grow-0 {
+                flex-grow: 0 !important
+            }
+
+            .flex-shrink-0 {
+                flex-shrink: 0 !important
+            }
+
+            .align-self-center {
+                align-self: center !important
+            }
+
+            .float-left {
+                float: left !important
+            }
+
+            .float-right {
+                float: right !important
+            }
+
+            .position-relative {
+                position: relative !important
+            }
+
+            .mb-0 {
+                margin-bottom: 0 !important
+            }
+
+            .py-0 {
+                padding-top: 0 !important
+            }
+
+            .py-0 {
+                padding-bottom: 0 !important
+            }
+
+            .text-right {
+                text-align: right !important
+            }
+
+            .text-center {
+                text-align: center !important
+            }
+
+            @media(min-width:992px) {
+                .text-lg-right {
+                    text-align: right !important
+                }
+            }
+
+            .text-uppercase {
+                text-transform: uppercase !important
+            }
+
+            .brave-modal {
+                display: none;
+                position: fixed;
+                z-index: 80100;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: #000;
+                background-color: rgba(0, 0, 0, .6);
+                -webkit-animation-name: animatetop;
+                -webkit-animation-duration: .4s;
+                animation-name: animatetop;
+                animation-duration: .4s
+            }
+
+            .brave-modal-content {
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+                display: block;
+                height: 100%;
+                left: 0;
+                outline: 0;
+                overflow: auto;
+                -webkit-overflow-scrolling: touch;
+                position: relative;
+                text-align: center;
+                top: 0;
+                white-space: normal;
+                width: 100%;
+                z-index: 1
+            }
+
+            .brave-modal-content:before {
+                content: "";
+                display: inline-block;
+                vertical-align: middle;
+                width: 0
+            }
+
+            .brave-modal-wrapper {
+                display: inline-block;
+                max-width: 100%;
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                padding: 0;
+                text-align: left;
+                vertical-align: middle;
+                background: #fff
+            }
+
+            .brave-modal-close {
+                background: 0;
+                border: 0;
+                border-radius: 0;
+                color: #fff;
+                height: 38px;
+                margin: 0;
+                padding: 6px;
+                position: absolute;
+                right: -14px;
+                top: -38px;
+                width: 38px;
+                z-index: 10
+            }
+
+            .brave-modal-close svg {
+                fill: transparent;
+                opacity: .8;
+                stroke: currentColor;
+                stroke-width: 1.5
+            }
+
+            @-webkit-keyframes animatetop {
+                from {
+                    opacity: 0
+                }
+
+                to {
+                    opacity: 1
+                }
+            }
+
+            @keyframes animatetop {
+                from {
+                    opacity: 0
+                }
+
+                to {
+                    opacity: 1
+                }
+            }
+
+            .dialog-message {
+                max-height: 80vh;
+                overflow-y: auto
+            }
+
+            .brave-modal .message {
+                width: 100%;
+                font-size: 1rem
+            }
+
+            .dialog-confirm-wrapper {
+                min-height: 100px;
+                padding: 15px
+            }
+
+            .dialog-confirm-wrapper .message {
+                margin-bottom: 20px
+            }
+
+            @media only screen and (max-width:1024px) {
+                .dialog-message {
+                    max-width: 80vw !important;
+                    max-height: 80vh !important;
+                    overflow-y: scroll
+                }
+            }
+
+            @media only screen and (max-width:768px) {
+                .dialog-message {
+                    width: 70vw !important
+                }
+            }
+
+            @media only screen and (max-width:480px) {
+                .dialog-message {
+                    width: 100% !important;
+                    min-width: 320px
+                }
+
+                .brave-modal .message {
+                    font-size: .875rem
+                }
+            }
+
+            @media only screen and (max-width:320px) {
+                .dialog-message {
+                    width: 100% !important;
+                    min-width: 290px
+                }
+            }
+
+            :root {
+                --main-color: #9d691b
+            }
+
+            body {
+                font-family: 'Open Sans', Arial, sans-serif
+            }
+
+            p:last-child {
+                margin-bottom: 0
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+                display: inline-block
+            }
+
+            .elife-content {
+                width: 100%;
+                min-height: 500px
+            }
+
+            select {
+                font-size: 1em;
+                line-height: 1.5
+            }
+
+            button,
+            input,
+            select,
+            textarea {
+                border-radius: 0;
+                line-height: inherit;
+                margin: 0
+            }
+
+            .form-control {
+                appearance: none;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                outline: 0
+            }
+
+            @media only screen and (min-width:1280px) {
+                .form-control {
+                    font-size: .875rem
+                }
+            }
+
+            [class*=control-width-] {
+                width: 100%
+            }
+
+            .control-width-small {
+                max-width: 130px
+            }
+
+            .control-width-normal {
+                max-width: 300px
+            }
+
+            .elife-btn-default {
+                background: #000 none repeat scroll 0 0;
+                border: 1px solid #000;
+                color: #fff !important
+            }
+
+            .elife-btn-yellow {
+                background: var(--main-color) none repeat scroll 0 0;
+                color: #fff !important
+            }
+
+            .elife-btn-grey {
+                background: #ddd none repeat scroll 0 0;
+                color: #000 !important
+            }
+
+            .error-panel {
+                padding: 8px 15px;
+                color: #a94442;
+                border: 1px solid #fee8df;
+                background: #fff4ef;
+                max-width: 100%;
+                margin-bottom: 1em;
+                position: relative;
+                display: none
+            }
+
+            .help-block {
+                color: #999;
+                margin-bottom: 0;
+                font-size: .8125rem;
+                line-height: 2em
+            }
+
+            .help-block.with-errors {
+                color: #a94442
+            }
+
+            label.required:after {
+                content: "*";
+                color: red !important
+            }
+
+            .highlight {
+                color: var(--main-color)
+            }
+
+            .form-group.end {
+                margin-bottom: 0
+            }
+
+            @media only screen and (min-width:1280px) {
+                .btn {
+                    font-size: .875rem
+                }
+            }
+
+            a {
+                color: #000
+            }
+
+            .breadcrumb {
+                background-color: #fff;
+                -webkit-border-radius: 0;
+                -moz-border-radius: 0;
+                border-radius: 0
+            }
+
+            #elife-menu ul {
+                margin: 0;
+                padding: 0;
+                list-style: none outside;
+                position: relative;
+                z-index: 100;
+                border: 0
+            }
+
+            #elife-menu a {
+                display: block;
+                text-decoration: none;
+                font-size: .875rem;
+                line-height: 30px;
+                white-space: nowrap
+            }
+
+            #elife-menu a.active {
+                color: var(--main-color);
+                position: relative
+            }
+
+            #elife-menu li {
+                float: left;
+                position: relative;
+                width: auto;
+                height: 30px
+            }
+
+            #elife-menu li.parent a:after {
+                position: absolute;
+                content: "";
+                width: 14px;
+                height: 14px;
+                background: url(https://www.milem.vn/fileserver/common/image/angle-down.svg?v=1.6) no-repeat;
+                right: -17px;
+                bottom: 8px
+            }
+
+            #elife-menu ul li {
+                float: left;
+                position: relative;
+                width: calc(100% / 6)
+            }
+
+            #elife-menu ul li:last-child {
+                margin-right: 0
+            }
+
+            .elife-breadcrumb {
+                font-size: .8125rem;
+                background: #fff;
+                width: 100%
+            }
+
+            .breadcrumb {
+                flex-wrap: nowrap !important;
+                -webkit-flex-wrap: nowrap !important;
+                padding: 10px 10px 10px 0
+            }
+
+            .scroll_breadcrumb {
+                min-width: 100%;
+                white-space: nowrap
+            }
+
+            .breadcrumb-item {
+                display: inline-block
+            }
+
+            .breadcrumb-item:last-child {
+                padding-right: 10px
+            }
+
+            @media only screen and (max-width:1024px) {
+                #elife-body .elife-sidebar-left {
+                    display: none
+                }
+
+                #elife-body .elife-content {
+                    width: 100%;
+                    margin-left: 0
+                }
+            }
+
+            @media only screen and (max-width:576px) {
+                .elife-content {
+                    min-height: 100vh
+                }
+
+                .container {
+                    width: 100%;
+                    padding-right: 10px;
+                    padding-left: 10px;
+                    margin-right: auto;
+                    margin-left: auto
+                }
+
+                .row {
+                    margin-left: -5px;
+                    margin-right: -5px
+                }
+
+                [class*=col-] {
+                    padding-left: 5px;
+                    padding-right: 5px
+                }
+            }
+
+            .font13 {
+                font-size: .8125rem
+            }
+
+            .checklabel {
+                display: block;
+                position: relative;
+                padding-left: 18px;
+                margin-bottom: 0
+            }
+
+            .checklabel input {
+                position: absolute;
+                opacity: 0;
+                height: 0;
+                width: 0
+            }
+
+            .checkmark {
+                position: absolute;
+                top: 4px;
+                left: 0;
+                height: 14px;
+                width: 14px;
+                background-color: #eee;
+                border-radius: 3px
+            }
+
+            .checkmark:after {
+                content: "";
+                position: absolute;
+                display: none
+            }
+
+            .checklabel .checkmark:after {
+                left: 5px;
+                top: 2px;
+                width: 4px;
+                height: 8px;
+                border: solid #fff;
+                border-width: 0 2px 2px 0;
+                -webkit-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                transform: rotate(45deg)
+            }
+
+            .page-link svg {
+                margin-top: -3px;
+            }
+        </style>
+        <style>
+            #elife-menu {
+                position: relative;
+                padding-bottom: 10px
+            }
+
+            .submenu-product {
+                background: #fff;
+                box-shadow: rgba(0, 0, 0, 0.15) 0 2px 6px, rgba(0, 0, 0, 0.15) 0 3px 6px;
+                margin-top: 10px;
+                display: none;
+                position: absolute;
+                top: 30px;
+                left: -195px;
+                z-index: 10;
+                width: 1140px
+            }
+
+            .submenu-product a:hover {
+                color: var(--main-color) !important
+            }
+
+            .submenu-product.active {
+                display: block
+            }
+
+            .submenu-product-wrapper {
+                padding: 20px
+            }
+
+            .main-category-product {
+                width: calc(100%/6);
+                position: relative
+            }
+
+            .category-product-content {
+                width: calc(500%/6);
+                position: relative;
+                min-height: 304px
+            }
+
+            .category-product-content:after {
+                position: absolute;
+                top: 0;
+                left: -30px;
+                content: '';
+                border: 1px solid #efefef;
+                width: 1px;
+                height: 100%
+            }
+
+            .category-product-content-item {
+                display: none
+            }
+
+            .category-product-content-item.active {
+                display: block
+            }
+
+            .main-category-item {
+                display: block;
+                margin-bottom: 15px
+            }
+
+            .main-category-item>a.active {
+                color: var(--main-color) !important
+            }
+
+            .main-category-item-link {
+                display: inline-block !important
+            }
+
+            .category-product-col {
+                width: 20%;
+                padding: 0 15px
+            }
+
+            .category-product-col-head {
+                text-transform: uppercase;
+                padding-bottom: 15px
+            }
+
+            .category-product-col-head a {
+                color: #222 !important
+            }
+
+            .category-product-subcategory {
+                font-size: .875rem
+            }
+
+            .category-product-subcategory-item {
+                margin-bottom: 7px
+            }
+
+            .submenu-product-banner {
+                margin-top: 20px
+            }
+
+            .submenu-brand {
+                width: 1140px;
+                background: #fff;
+                box-shadow: rgba(0, 0, 0, 0.15) 0 2px 6px, rgba(0, 0, 0, 0.15) 0 3px 6px;
+                margin-top: 10px;
+                display: none;
+                position: absolute;
+                top: 30px;
+                left: -195px;
+                z-index: 10
+            }
+
+            .submenu-brand-wrapper {
+                padding: 20px
+            }
+
+            .submenu-brand.active {
+                display: block
+            }
+
+            .submenu-brand-col1 {
+                width: 650px
+            }
+
+            .submenu-brand-col2 {
+                width: 448px
+            }
+
+            .top-brand-row1 {
+                margin-bottom: 15px
+            }
+
+            .top-brand-col1 {
+                margin-right: 15px
+            }
+
+            .menu-brand-list {
+                columns: 3;
+                -webkit-columns: 3;
+                -moz-columns: 3
+            }
+
+            .menu-brand-item {
+                width: 100% !important;
+                margin-right: 0 !important;
+                margin-bottom: 7px
+            }
+
+            .header-payment {
+                padding: 15px 0;
+                border-bottom: 1px solid #f2f2f2;
+                background: #fff
+            }
+
+            #elife-splash-section {
+                padding-top: 0 !important
+            }
+
+            .header-payment-logo {
+                width: 135px
+            }
+
+            .payment-status-item {
+                display: inline-block;
+                font-size: .875rem;
+                padding-left: 30px
+            }
+
+            .payment-status-icon {
+                width: 24px;
+                height: 24px;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                background: #f6f6f6;
+                color: #333;
+                display: inline-block;
+                text-align: center;
+                line-height: 24px;
+                font-size: .875rem
+            }
+
+            .payment-status-item.active {
+                font-weight: 600
+            }
+
+            .cart-nav {
+                font-size: .875rem;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                margin-bottom: 15px
+            }
+
+            .cart-nav svg {
+                fill: var(--main-color)
+            }
+
+            .checkout-main {
+                padding: 30px 0
+            }
+
+            .cart-title {
+                padding-top: 10px;
+                padding-bottom: 10px
+            }
+
+            .cart-title-text {
+                font-family: "Montserrat", arial, helvetica, clean, sans-serif;
+                font-size: 1.6rem;
+                letter-spacing: -0.5px;
+                color: #252525;
+                margin-bottom: 0
+            }
+
+            .checkout-main-primary,
+            .checkout-main-sidebar {
+                margin-bottom: 20px
+            }
+
+            .address-box {
+                height: 100%
+            }
+
+            .checkout-box {
+                font-size: 0.875rem;
+                border: 1px solid #dde2e4;
+                position: relative;
+                margin-bottom: 20px
+            }
+
+            .checkout-box-heading {
+                border-bottom: 1px solid #dde2e4;
+                padding: 10px 12px 9px
+            }
+
+            .checkout-box-title {
+                margin-bottom: 0;
+                font-size: 0.875rem;
+                display: inline-block
+            }
+
+            .number-product-incart {
+                color: #757575
+            }
+
+            .logintype {
+                margin-top: 10px
+            }
+
+            .checkout-email,
+            .checkout-login,
+            .checkout-signup,
+            .checkout-guest {
+                padding: 40px 24px
+            }
+
+            .group-social-login {
+                margin-top: 40px
+            }
+
+            .order-scroll-table-wrapper {
+                padding: 0 12px
+            }
+
+            .order-scroll-table-header {
+                border-collapse: collapse;
+                width: 100%
+            }
+
+            .order-scroll-table-header.has-scroll {
+                width: 305px
+            }
+
+            .order-scroll-table-header th {
+                color: gray;
+                font-size: 11px;
+                line-height: 1em;
+                text-transform: uppercase;
+                padding: 8px 0
+            }
+
+            .order-product-name {
+                color: #666;
+                width: 60%;
+                text-align: left
+            }
+
+            .order-product-qty {
+                width: 15%;
+                text-align: center
+            }
+
+            .order-product-price {
+                width: 25%;
+                text-align: right
+            }
+
+            .order-scrollable {
+                background: #fff none repeat scroll 0 0;
+                max-height: 200px;
+                min-height: 40px;
+                overflow-x: hidden;
+                overflow-y: auto;
+                padding: 0 12px;
+                width: 100%
+            }
+
+            .order-scroll-table {
+                border-collapse: collapse;
+                width: 100%
+            }
+
+            .order-scroll-table.has-scroll {
+                width: 305px
+            }
+
+            .order-scroll-table td {
+                border-top: 1px solid #dde2e4;
+                vertical-align: top;
+                line-height: 1.2em;
+                padding: 8px 0
+            }
+
+            .order-scroll-table td.order-product-name {
+                padding-right: 5px
+            }
+
+            .order-product-name-title {
+                font-family: "Montserrat", arial, helvetica, clean, sans-serif;
+                font-size: 0.75rem;
+                margin-bottom: 5px;
+                display: inline-block
+            }
+
+            .order-product-color-size {
+                font-size: 0.8125rem
+            }
+
+            .ch-cart-conclusion {
+                background: #fafafa none repeat scroll 0 0;
+                border-top: 1px solid #dde2e4;
+                padding: 0 12px 14px
+            }
+
+            .total-item {
+                border-collapse: collapse;
+                border-spacing: 0;
+                width: 100%
+            }
+
+            .total-item.has-scroll {
+                width: 305px
+            }
+
+            .total-item td {
+                width: 45%;
+                padding: 8px 0
+            }
+
+            .row-total {
+                border-top: 1px solid #e7e7e7;
+                color: #696969;
+                font-weight: 600
+            }
+
+            .total-label {
+                color: #202020;
+                font-size: 16px;
+                display: block;
+                font-weight: 600
+            }
+
+            .vat-minicart {
+                color: gray;
+                margin: 0;
+                display: block;
+                font-size: 11px;
+                font-weight: 400
+            }
+
+            .sel-total {
+                padding: 14px 0 0;
+                text-align: right
+            }
+
+            .total-price {
+                color: var(--main-color);
+                font-size: 16px;
+                font-weight: 600
+            }
+
+            .checkout-cardlocation-section {
+                padding: 20px 12px
+            }
+
+            .checkout-cardlocation-item {
+                border: 1px solid #ddd;
+                padding: 15px;
+                margin-bottom: 15px;
+                position: relative
+            }
+
+            .checkout-cardlocation-item.active {
+                border: 1px dashed var(--main-color)
+            }
+
+            .checkout-cardlocation-item:last-child {
+                margin-bottom: 0
+            }
+
+            .checkout-cardlocation-default {
+                position: absolute;
+                right: 15px;
+                top: 10px;
+                color: var(--main-color)
+            }
+
+            .location-fullname {
+                font-size: 1.1em;
+                line-height: 1em;
+                color: #292929;
+                display: block;
+                font-weight: 600;
+                margin-bottom: 10px
+            }
+
+            .checkout-cardlocation-item:hover {
+                border: 1px solid var(--main-color);
+                background: #fafafa
+            }
+
+            .checkout-cardlocation-item-control {
+                margin-top: 10px
+            }
+
+            .checkout-cardlocation-form {
+                padding: 20px 12px
+            }
+
+            .add-new-locatoin-title {
+                margin-bottom: 15px
+            }
+
+            .checkout-shipping-address {
+                padding: 12px
+            }
+
+            .checkout-section {
+                padding: 14px 12px
+            }
+
+            .checkout-section .form-group:last-child {
+                margin-bottom: 0
+            }
+
+            .row-shipping-price td {
+                width: 50%;
+                padding: 0 0 8px 0;
+                color: #5cb85c
+            }
+
+            .checkout-billing-information-form {
+                padding: 20px 12px
+            }
+
+            .coupon-info-sucess {
+                color: #5cb85c;
+                display: none
+            }
+
+            .invalid-couponcode {
+                color: #a94442;
+                display: none
+            }
+
+            .invalid-couponcode td {
+                padding-top: 0;
+                padding-bottom: 8px
+            }
+
+            .row-coupon {
+                width: 100%
+            }
+
+            .bank-checkout-section {
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s
+            }
+
+            .bank-list {
+                padding-bottom: 12px
+            }
+
+            .bank-item {
+                display: inline-flex;
+                padding-bottom: 5px;
+                margin-bottom: 5px;
+                border-bottom: 1px solid #eee;
+                width: 100%;
+                cursor: pointer
+            }
+
+            .bank-item-wrapper {
+                cursor: pointer
+            }
+
+            .bank-item:last-child {
+                padding-bottom: 0;
+                margin-bottom: 0;
+                border-bottom: none
+            }
+
+            .bank-option-check {
+                margin-right: .3125rem;
+                cursor: pointer
+            }
+
+            .bank-item-image {
+                margin-right: 12px
+            }
+
+            .bank-item-info {
+                font-size: 0.9em;
+                line-height: 1.5em
+            }
+
+            .select-bank-message {
+                color: #a94442;
+                display: none
+            }
+
+            .coupon-info {
+                color: #5cb85c
+            }
+
+            #couponcode {
+                font-size: 0.8125rem
+            }
+
+            #btnApplyPromotionCode {
+                font-size: 0.8125rem;
+                height: 38px
+            }
+
+            .combo-list {
+                font-size: 0.75rem
+            }
+
+            .combo-item {
+                padding: 2px 0
+            }
+
+            .job-item,
+            .payment-method-item {
+                padding: 3px 0
+            }
+
+            .job-item .form-check-inline {
+                align-items: flex-start;
+                -webkit-align-items: flex-start
+            }
+
+            .job-item .form-check-label {
+                margin-top: -5px
+            }
+
+            .form-check-label {
+                cursor: pointer
+            }
+
+            #comment {
+                font-size: 0.875rem
+            }
+
+            @media only screen and (max-width: 1024px) {
+                .order-scroll-table-header.has-scroll {
+                    width: 100%
+                }
+
+                .total-item.has-scroll {
+                    width: 100%
+                }
+            }
+
+            @media only screen and (max-width: 576px) {
+                .control-width-normal {
+                    max-width: inherit !important
+                }
+            }
+
+            @media only screen and (max-width: 360px) {
+                #btnApplyPromotionCode {
+                    padding: .4em .5em
+                }
+            }
+
+            .login-content {
+                width: 600px;
+                margin: 0 auto;
+                min-height: 360px;
+                display: flex;
+                display: -webkit-flex;
+                border: 1px solid #f2f2f2;
+                box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0, rgba(0, 0, 0, 0.14) 0 0 1px 0, rgba(0, 0, 0, 0.12) 0 2px 1px -1px
+            }
+
+            .login-content-col1 {
+                width: 50%;
+                background: url('https://www.milem.vn/smartcore/template/default/view/module/login/desktop/default/images/bg-login.png?v=1.3') left top no-repeat;
+                background-size: cover;
+                font-size: .875rem;
+                padding: 15px 30px
+            }
+
+            .login-content-col2 {
+                width: 50%;
+                background: #f2f2f2;
+                padding: 15px
+            }
+
+            .login-gift {
+                text-align: center;
+                padding: 25px 0
+            }
+
+            .login-social-button {
+                height: 32px;
+                width: 100%;
+                display: flex;
+                display: -webkit-flex;
+                margin-bottom: 10px
+            }
+
+            .login-social-button.fb {
+                background: #3c5a98
+            }
+
+            .login-social-button.glus {
+                background: #e12714
+            }
+
+            .login-social-button-icon {
+                color: #fff;
+                width: 32px;
+                height: 32px;
+                display: flex;
+                display: -webkit-flex;
+                align-items: center;
+                -webkit-align-items: center;
+                justify-content: center;
+                -webkit-justify-content: center
+            }
+
+            .login-social-button-icon.fb {
+                background: #324e89
+            }
+
+            .login-social-button-icon.glus {
+                background: #b22c1d
+            }
+
+            .login-social-button-text {
+                display: flex;
+                display: -webkit-flex;
+                align-items: center;
+                -webkit-align-items: center;
+                justify-content: center;
+                -webkit-justify-content: center;
+                flex: 1;
+                font-size: .8125rem;
+                color: #fff;
+                text-align: center
+            }
+
+            .text-no-account {
+                color: #a0a0a0;
+                font-size: .75rem
+            }
+
+            a.text-register {
+                color: var(--main-color) !important;
+                font-weight: bold;
+                font-size: .75rem
+            }
+
+            .form-login-wrapper {
+                background: #fff;
+                width: 100%;
+                height: 100%;
+                font-size: .8125rem;
+                padding: 30px 25px;
+                display: flex;
+                display: -webkit-flex;
+                justify-content: center;
+                -webkit-justify-content: center;
+                align-items: center;
+                -webkit-align-items: center
+            }
+
+            .form-login-wrapper form {
+                width: 100%
+            }
+
+            .login-form-popup.fancybox-content {
+                background: transparent
+            }
+
+            .login-form-popup.fancybox-content .fancybox-close-small {
+                color: #fff
+            }
+
+            .register-form-popup.fancybox-content {
+                background: transparent
+            }
+
+            .register-form-popup.fancybox-content .fancybox-close-small {
+                color: #fff
+            }
+
+            @media only screen and (max-width:1024px) {
+                .login-content {
+                    width: 100%;
+                    flex-wrap: wrap;
+                    -webkit-flex-wrap: wrap
+                }
+
+                .login-content-col1,
+                .login-content-col2 {
+                    width: 100%
+                }
+            }
+        </style>
+    </head>
+
+    <body id="layout_confirmpayment"> 
+        <div id="sb-site" class="sb-site-container">
+            <header id="elife-header">
+                <div class="header-payment">
+                    <div class="container clearfix">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="header-payment-logo"><a class="d-inline-block" href="trangchu.html"><img width="107" height="21" src="./assets/image/bioskin_logo_foot.png" alt="logo"></a></div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="header-payment-body">
+                                    <div class="text-right">
+                                        <div class="payment-status-item "><a class="no-link" href="cart.html"><span class="payment-status-icon">1</span>&nbsp;<span>Giỏ hàng</span></a></div>
+                                        <div class="payment-status-item active"><a class="no-link" href="payment.html"><span class="payment-status-icon">2</span>&nbsp;<span>Thanh toán</span></a></div>
+                                        <div class="payment-status-item "><span class="payment-status-icon">3</span>&nbsp;<span>Hoàn tất</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div id="elife-splash-section" class=""> </div>
+            <main id="elife-body" class="elife-layout-nosidebar clearfix">
+                <div class="elife-sidebar-left elife-sidebar">
+                    <div class="elife-wrapper clearfix"> </div>
+                </div>
+                <div class="elife-content">
+                    <div class="elife-wrapper clearfix">
+                        <div class="container">
+                            <div class="checkout-main">
+                                <div class="checkout-main-wrapper clearfix">
+                                    <form id="paymentForm" method="post" wtx-context="A2C73388-AD95-44E4-81FB-B35CD6D01F94">
+                                        <div id="checkout-location" class="checkout-location">
+                                            <div class="cart-nav"><a href="cart.html" class="highlight"><svg width="12" height="12" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1203 544q0 13-10 23l-393 393 393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23z"></path>
+                                                    </svg>&nbsp;<span class="align-middle">Trở về giỏ hàng</span></a></div>
+                                            <div class="cart-title">
+                                                <h5 class="cart-title-text">Địa chỉ giao hàng</h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="checkout-main-sidebar col-lg-12">
+                                                    <div class="checkout-box mb-0 address-box">
+                                                        <div class="checkout-box-heading clearfix">
+                                                            <h4 class="checkout-box-title">Địa chỉ giao hàng</h4>
+                                                        </div>
+                                                        <div class="checkout-box-content">
+                                                            <div class="checkout-billing-information-form">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-group row"><label class="col-form-label col-lg-3 col-md-2 required" for="shipment_name">Họ tên:</label>
+                                                                            <div class="col-lg-8 col-md-10"><input id="shipment-name" name="shipment_name" type="text" class="form-control control-width-normal" maxlength="50" value="" wtx-context="53F2B685-7A20-4986-809F-BA039FE1B063">
+                                                                                <div id="shipment_name-error" class="help-block with-errors"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-group row"><label class="col-form-label col-lg-3 col-md-2 required" for="email">Email:</label>
+                                                                            <div class="col-lg-8 col-md-10"><input id="card-email" name="email" type="text" autocorrect="off" autocapitalize="none" class="form-control control-width-normal" maxlength="50" value="" wtx-context="A9A32ADD-740A-4D47-88CF-65EE2EB9362D">
+                                                                                <div id="email-error" class="help-block with-errors"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-group row"><label class="col-form-label col-lg-3 col-md-2 required" for="shipment_phone">Điện thoại:</label>
+                                                                            <div class="col-lg-8 col-md-10"><input id="shipment-phone" name="shipment_phone" type="text" class="form-control control-width-normal" maxlength="30" value="" wtx-context="4A793EAD-31E8-43EC-873A-28E06721338A">
+                                                                                <div id="shipment_phone-error" class="help-block with-errors"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-group row"><label class="col-form-label col-lg-3 col-md-2 required" for="shipment_address">Địa chỉ:</label>
+                                                                            <div class="col-lg-8 col-md-10"><input id="shipment-address" name="shipment_address" type="text" class="form-control control-width-normal" value="" wtx-context="5F1DD62B-531B-4EBE-B540-93B86AF7F4DE">
+                                                                                <div id="shipment_address-error" class="help-block with-errors"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-group row"><label class="col-form-label col-lg-3 col-md-2 required" for="shipment-province">Tỉnh/Thành:</label>
+                                                                            <div class="col-lg-8 col-md-10"><select id="shipment-province" class="form-control control-width-normal custom-select" name="shipment_province" wtx-context="7FAFD179-F36E-4594-A3B5-EB1E92702B21">
+                                                                                    <option value="">Chọn tỉnh/thành</option>
+                                                                                    <option value="P79">Hồ Chí Minh</option>
+                                                                                    <option value="P01">Hà Nội</option>
+                                                                                    <option value="P92">Cần Thơ</option>
+                                                                                    <option value="P46">Thừa Thiên Huế</option>
+                                                                                    <option value="P48">Đà Nẵng</option>
+                                                                                    <option value="P89">An Giang</option>
+                                                                                    <option value="P77">Bà Rịa - Vũng Tàu</option>
+                                                                                    <option value="P24">Bắc Giang</option>
+                                                                                    <option value="P06">Bắc Kạn</option>
+                                                                                    <option value="P95">Bạc Liêu</option>
+                                                                                    <option value="P27">Bắc Ninh</option>
+                                                                                    <option value="P83">Bến Tre</option>
+                                                                                    <option value="P74">Bình Dương</option>
+                                                                                    <option value="P52">Bình Định</option>
+                                                                                    <option value="P70">Bình Phước</option>
+                                                                                    <option value="P60">Bình Thuận</option>
+                                                                                    <option value="P96">Cà Mau</option>
+                                                                                    <option value="P04">Cao Bằng</option>
+                                                                                    <option value="P66">Đắk Lắk</option>
+                                                                                    <option value="P67">Đắk Nông</option>
+                                                                                    <option value="P11">Điện Biên</option>
+                                                                                    <option value="P75">Đồng Nai</option>
+                                                                                    <option value="P87">Đồng Tháp</option>
+                                                                                    <option value="P64">Gia Lai</option>
+                                                                                    <option value="P02">Hà Giang</option>
+                                                                                    <option value="P35">Hà Nam</option>
+                                                                                    <option value="P42">Hà Tĩnh</option>
+                                                                                    <option value="P30">Hải Dương</option>
+                                                                                    <option value="P31">Hải Phòng</option>
+                                                                                    <option value="P93">Hậu Giang</option>
+                                                                                    <option value="P17">Hòa Bình</option>
+                                                                                    <option value="P33">Hưng Yên</option>
+                                                                                    <option value="P56">Khánh Hòa</option>
+                                                                                    <option value="P91">Kiên Giang</option>
+                                                                                    <option value="P62">Kon Tum</option>
+                                                                                    <option value="P12">Lai Châu</option>
+                                                                                    <option value="P68">Lâm Đồng</option>
+                                                                                    <option value="P20">Lạng Sơn</option>
+                                                                                    <option value="P10">Lào Cai</option>
+                                                                                    <option value="P80">Long An</option>
+                                                                                    <option value="P36">Nam Định</option>
+                                                                                    <option value="P40">Nghệ An</option>
+                                                                                    <option value="P37">Ninh Bình</option>
+                                                                                    <option value="P58">Ninh Thuận</option>
+                                                                                    <option value="P25">Phú Thọ</option>
+                                                                                    <option value="P54">Phú Yên</option>
+                                                                                    <option value="P44">Quảng Bình</option>
+                                                                                    <option value="P49">Quảng Nam</option>
+                                                                                    <option value="P51">Quảng Ngãi</option>
+                                                                                    <option value="P22">Quảng Ninh</option>
+                                                                                    <option value="P45">Quảng Trị</option>
+                                                                                    <option value="P94">Sóc Trăng</option>
+                                                                                    <option value="P14">Sơn La</option>
+                                                                                    <option value="P72">Tây Ninh</option>
+                                                                                    <option value="P34">Thái Bình</option>
+                                                                                    <option value="P19">Thái Nguyên</option>
+                                                                                    <option value="P38">Thanh Hóa</option>
+                                                                                    <option value="P82">Tiền Giang</option>
+                                                                                    <option value="P84">Trà Vinh</option>
+                                                                                    <option value="P08">Tuyên Quang</option>
+                                                                                    <option value="P86">Vĩnh Long</option>
+                                                                                    <option value="P26">Vĩnh Phúc</option>
+                                                                                    <option value="P15">Yên Bái</option>
+                                                                                </select>
+                                                                                <div id="shipment_province-error" class="help-block with-errors"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-group row"><label class="col-form-label col-lg-3 col-md-2 required" for="shipment-district">Quận/Huyện:</label>
+                                                                            <div class="col-lg-8 col-md-10"><select id="shipment-district" class="form-control control-width-normal custom-select" name="shipment_district" wtx-context="DAB36225-B2C5-4E64-8B9C-1260154214D1">
+                                                                                    <option value="">Chọn quận/huyện</option>
+                                                                                </select>
+                                                                                <div id="shipment_district-error" class="help-block with-errors"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-group row"><label class="col-form-label col-lg-3 col-md-2 required" for="shipment-ward">Phường/Xã:</label>
+                                                                            <div class="col-lg-8 col-md-10"><select id="shipment-ward" class="form-control control-width-normal custom-select" name="shipment_ward" wtx-context="1EF3379C-A4AB-4507-9A38-99226C69747C">
+                                                                                    <option value="">Chọn phường/xã</option>
+                                                                                </select>
+                                                                                <div id="shipment_ward-error" class="help-block with-errors"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="text-lg-right text-center"><a class="btn elife-btn-yellow control-width-normal text-uppercase" href="hoantatthanhtoan.html" onclick="processPayment()">Tiến hành thanh toán</a></div>
+                                        </div>
+                                        <div id="checkout-payment" class="d-none">
+                                            <div class="cart-nav"><a href="javascript:void(0)" onclick="goToAddress()" class="highlight"><svg width="12" height="12" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1203 544q0 13-10 23l-393 393 393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23z"></path>
+                                                    </svg>&nbsp;Trở về địa chỉ giao hàng </a></div>
+                                            <div class="cart-title">
+                                                <h5 class="cart-title-text">Thanh toán</h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="checkout-main-primary col-lg-8">
+                                                    <div class="checkout-box">
+                                                        <div class="checkout-box-heading">
+                                                            <h4 class="checkout-box-title">Hình thức giao hàng</h4>
+                                                        </div>
+                                                        <div class="checkout-box-content">
+                                                            <div class="checkout-section">
+                                                                <div class="job-item">
+                                                                    <div class="form-check form-check-inline"> <input id="radio-J001" name="jobcode" type="radio" price="0" class="form-check-input" checked="" value="J001" wtx-context="1C1FF462-3825-4F86-BF25-FC5B9F4E2D0A"><label class="form-check-label" for="radio-J001">Giao hàng tiêu chuẩn </label> </div>
+                                                                </div>
+                                                                <div class="job-item">
+                                                                    <div class="form-check form-check-inline"> <input id="radio-J002" name="jobcode" type="radio" price="call" class="form-check-input" value="J002" wtx-context="8A47B555-53CC-41F2-8710-9FEBEF2B0AF6"><label class="form-check-label" for="radio-J002">Giao hàng nhanh&nbsp;(Vui lòng liên hệ hotline&nbsp;0932 981 560)</label> </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkout-box">
+                                                        <div class="checkout-box-heading">
+                                                            <h4 class="checkout-box-title">Phương thức thanh toán</h4>
+                                                        </div>
+                                                        <div class="checkout-box-content">
+                                                            <div class="checkout-section">
+                                                                <div class="payment-method-item">
+                                                                    <div class="form-check form-check-inline"><input class="form-check-input" id="softjob-P002" checked="" name="soft_paymentmethod" type="radio" value="cash##P002" wtx-context="820E57C6-55C8-4936-A78E-C8BEFA5D8FCD"><label class="form-check-label" for="softjob-P002">Nhận hàng trả tiền</label></div>
+                                                                </div>
+                                                                <div class="payment-method-item">
+                                                                    <div class="form-check form-check-inline"><input class="form-check-input" id="softjob-P003" name="soft_paymentmethod" type="radio" value="bank##P003" wtx-context="CAAF1B71-F4C7-40F8-847A-3D25DE9F77E0"><label class="form-check-label" for="softjob-P003">Chuyển khoản</label></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="bank-checkout-section checkout-section py-0">
+                                                                <div class="select-bank-message">Vui lòng chọn một tài khoản bạn sẽ chuyển khoản</div>
+                                                                <div class="bank-list">
+                                                                    <div class="bank-item"><label class="d-flex bank-item-wrapper mb-0" for="bank-W5be1449923023">
+                                                                            <div class="bank-item-check flex-shrink-0 flex-grow-0 align-self-center"><input class="bank-option-check" id="bank-W5be1449923023" name="bank" type="radio" value="W5be1449923023" wtx-context="341EE5E4-E86E-40E6-AD06-785D1C6A3018"></div>
+                                                                            <div class="bank-item-image flex-shrink-0 flex-grow-0"><img width="75" height="75" srcset="https://www.milem.vn/fileserver/images/file/fixsize-75x75/upload/addon/bank/W5be1449923023/techcombank-(1).png?v=1.3 , https://www.milem.vn/fileserver/images/file/fixsize-150x150/upload/addon/bank/W5be1449923023/techcombank-(1).png?v=1.3 2x" src="https://www.milem.vn/fileserver/images/file/fixsize-75x75/upload/addon/bank/W5be1449923023/techcombank-(1).png?v=1.3"></div>
+                                                                            <div class="bank-item-info">
+                                                                                <p><strong>Techcombank&nbsp;</strong><br>
+                                                                                    Tên: Hồ Nguyễn Thảo Anh&nbsp;<br>
+                                                                                    Số tài khoản: 19033315954017<br>
+                                                                                    Chi nhánh: Thành Phố Hồ Chí Minh</p>
+                                                                            </div>
+                                                                        </label></div>
+                                                                    <div class="bank-item"><label class="d-flex bank-item-wrapper mb-0" for="bank-W5cb6f2d0d84cb">
+                                                                            <div class="bank-item-check flex-shrink-0 flex-grow-0 align-self-center"><input class="bank-option-check" id="bank-W5cb6f2d0d84cb" name="bank" type="radio" value="W5cb6f2d0d84cb" wtx-context="22FF1059-5711-4AD8-8E2D-9AB8E3FE38FD"></div>
+                                                                            <div class="bank-item-image flex-shrink-0 flex-grow-0"><img width="75" height="75" srcset="https://www.milem.vn/fileserver/images/file/fixsize-75x75/upload/addon/bank/W5cb6f2d0d84cb/vietcombank.png?v=1.3 , https://www.milem.vn/fileserver/images/file/fixsize-150x150/upload/addon/bank/W5cb6f2d0d84cb/vietcombank.png?v=1.3 2x" src="https://www.milem.vn/fileserver/images/file/fixsize-75x75/upload/addon/bank/W5cb6f2d0d84cb/vietcombank.png?v=1.3"></div>
+                                                                            <div class="bank-item-info">
+                                                                                <p><strong>Vietcombank&nbsp;</strong><br>
+                                                                                    Tên: Hồ Nguyễn Thảo Anh&nbsp;<br>
+                                                                                    Số tài khoản: 0251002767231<br>
+                                                                                    Chi nhánh: Thành Phố Hồ Chí Minh</p>
+                                                                            </div>
+                                                                        </label></div>
+                                                                    <div class="bank-item"><label class="d-flex bank-item-wrapper mb-0" for="bank-W5cb6f36042fae">
+                                                                            <div class="bank-item-check flex-shrink-0 flex-grow-0 align-self-center"><input class="bank-option-check" id="bank-W5cb6f36042fae" name="bank" type="radio" value="W5cb6f36042fae" wtx-context="B1F98324-A2A2-4000-8F7A-27499F689D33"></div>
+                                                                            <div class="bank-item-image flex-shrink-0 flex-grow-0"><img width="75" height="75" srcset="https://www.milem.vn/fileserver/images/file/fixsize-75x75/upload/addon/bank/W5cb6f36042fae/agribank.png?v=1.3 , https://www.milem.vn/fileserver/images/file/fixsize-150x150/upload/addon/bank/W5cb6f36042fae/agribank.png?v=1.3 2x" src="https://www.milem.vn/fileserver/images/file/fixsize-75x75/upload/addon/bank/W5cb6f36042fae/agribank.png?v=1.3"></div>
+                                                                            <div class="bank-item-info">
+                                                                                <p><strong>Agribank</strong><br>
+                                                                                    Tên: Hồ Nguyễn Thảo Anh<br>
+                                                                                    Số tài khoản: 1700206449138<br>
+                                                                                    Chi nhánh: Thành Phố Hồ Chí Minh</p>
+                                                                            </div>
+                                                                        </label></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkout-box">
+                                                        <div class="checkout-box-heading clearfix"><span class="checkout-box-title float-left">Ghi chú cho đơn hàng</span></div>
+                                                        <div class="checkout-box-content">
+                                                            <div class="checkout-section"><textarea id="comment" name="comment" class="form-control" placeholder="" rows="2"></textarea></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="checkout-main-sidebar col-lg-4">
+                                                    <div class="checkout-box">
+                                                        <div class="checkout-box-heading clearfix"><span class="checkout-box-title float-left">Thông tin đơn hàng</span>&nbsp;<span class="number-product-incart"> 1&nbsp;Sản phẩm</span>
+                                                            <div class="float-right"><a class="highlight" href="https://www.milem.vn/vi-vn/cart.html"><i class="fa fa-pencil"></i>&nbsp;Sửa</a></div>
+                                                        </div>
+                                                        <div class="checkout-box-content">
+                                                            <div class="order-scroll-table-wrapper">
+                                                                <table class="order-scroll-table-header">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <th class="order-product-name">Sản phẩm</th>
+                                                                            <th class="order-product-qty">Số lượng</th>
+                                                                            <th class="order-product-price">Giá</th>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <div class="order-scrollable">
+                                                                <table class="order-scroll-table">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td class="order-product-name"><a class="order-product-name-title" href="https://www.milem.vn/vi-vn/md-dermatics-revita-plus-brightening-serum-huyet-thanh-lam-sang-duong-am.html" target="_blank">MD DERMATICS Revita Plus Brightening Serum - Huyết thanh làm sáng &amp; dưỡng ẩm</a><br>
+                                                                                <div class="order-product-color-size"> <span>Kích cỡ: 30 ml</span><br> </div>
+                                                                            </td>
+                                                                            <td class="order-product-qty"> 1 </td>
+                                                                            <td class="order-product-price"> <span>2,800,000</span></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <div class="ch-cart-conclusion">
+                                                                <table class="total-item">
+                                                                    <tbody>
+                                                                        <tr class="row-subtotal">
+                                                                            <td class="subtotal">Thành tiền</td>
+                                                                            <td class="text-right"> 2,800,000đ <input id="subtotal" type="hidden" value="2800000" wtx-context="6CA5A609-FA24-4F6F-8D79-7195EC3EF0C7"></td>
+                                                                        </tr>
+                                                                        <tr class="row-shipping-price">
+                                                                            <td class="subtotal">Phí vận chuyển</td>
+                                                                            <td id="shippingprice" class="text-right">0đ</td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <table class="total-item">
+                                                                    <tbody>
+                                                                        <tr class="row-promotioncode">
+                                                                            <td class="subtotal">Mã giảm giá</td>
+                                                                            <td class="text-right"><input type="text" id="couponcode" name="couponcode" placeholder="Mã giảm giá" class="form-control full-width control-width-normal rounded-0" wtx-context="27B5A3D3-DA74-4019-8D87-4F9781C8193D"></td>
+                                                                            <td><button id="btnApplyPromotionCode" type="button" class="btn rounded-0">Áp dụng</button></td>
+                                                                        </tr>
+                                                                        <tr class="invalid-couponcode">
+                                                                            <td class="subtotal"></td>
+                                                                            <td colspan="2" id="couponcode-error">Mã giảm giá không hợp lệ</td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <table id="coupon-info-sucess" class="total-item coupon-info-sucess">
+                                                                    <tbody>
+                                                                        <tr class="row-coupon">
+                                                                            <td>Giảm giá (<span id="lb-couponcode">Mã:&nbsp;YUGIFF</span>)</td>
+                                                                            <td class="text-right align-top"><span id="lb-discount-coupon-amount"></span>đ <span id="discount-coupon-value" class="d-none"></span></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <table class="total-item">
+                                                                    <tbody>
+                                                                        <tr class="row-total">
+                                                                            <td class="total"><strong class="total-label">Tổng cộng</strong><span class="vat-minicart">(Tổng số tiền thanh toán)</span></td>
+                                                                            <td class="total sel-total"><strong class="total-price"><span id="carttotal">2,800,000</span>đ</strong></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkout-box1">
+                                                        <div class="text-lg-right"><a class="btn btn-block elife-btn-yellow text-uppercase btnPlaceOrder"><i class="fa fa-lock"></i>&nbsp;Đặt hàng</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elife-sidebar-right elife-sidebar">
+                    <div class="elife-wrapper clearfix"> </div>
+                </div>
+            </main>
+            <footer id="elife-footer"> </footer>
+        </div>
+        <div id="message-modal" class="brave-modal">
+            <div class="brave-modal-content">
+                <div class="brave-modal-wrapper"><button class="brave-modal-close" title="Close"><svg viewBox="0 0 32 32">
+                            <path d="M10,10 L22,22 M22,10 L10,22"></path>
+                        </svg></button>
+                    <div class="brave-modal-body">
+                        <div class="dialog-message">
+                            <div class="dialog-message-wrapper">
+                                <div class="message"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="confirm-modal" class="brave-modal">
+            <div class="brave-modal-content">
+                <div class="brave-modal-wrapper"><button class="brave-modal-close" title="Close"><svg viewBox="0 0 32 32">
+                            <path d="M10,10 L22,22 M22,10 L10,22"></path>
+                        </svg></button>
+                    <div class="brave-modal-body">
+                        <div class="dialog-message">
+                            <div class="dialog-confirm-wrapper">
+                                <div class="message"></div>
+                                <div class="confirm-button text-right"><button class="btncancel btn elife-btn-grey">Bỏ qua</button>&nbsp;<button class="btnok btn elife-btn-yellow">Đồng ý</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <noscript id="deferred-styles">
+            <link rel="stylesheet" href="./style.css" media="print" onload="this.media='all'">
+        </noscript>
+        <script>
+            var loadDeferredStyles = function() {
+                    var e = document.getElementById("deferred-styles"),
+                        t = document.createElement("div");
+                    t.innerHTML = e.textContent, document.body.appendChild(t)
+                },
+                raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
+            raf ? raf(function() {
+                setTimeout(loadDeferredStyles, 0)
+            }) : window.addEventListener("DOMContentLoaded", loadDeferredStyles)
+        </script>
+        <script type="text/javascript">
+            //define constants
+            var ROOT_HTTP_SERVER = "https://www.milem.vn/";
+            var CONFIG_NUMBER_DECIMAL = parseInt("0");
+            var CONFIG_DEC_POINT = ".";
+            var CONFIG_THOUSANDS_SEP = ",";
+            var IMAGE_VERSION = "1.3";
+            var URL_USERIMAGE = "https://www.milem.vn/fileserver/images/file/";
+
+            function loadNextSection(sectionId) {
+                var section = document.getElementById(sectionId);
+                if (section) section.removeAttribute('style');
+                var links = section.querySelectorAll('link[data-href]');
+                if (links) {
+                    links.forEach(function(link) {
+                        link.href = link.dataset.href;
+                    })
+                }
+            }
+            var is_show_popupimage = '0';
+            var is_login = '0';
+            var min_freeship_price = parseInt("5000000");
+            var current_sitemapid = "198";
+
+        </script>
+        <script defer="defer" type="text/javascript" src="https://www.milem.vn/smartcore/template/default/cachedb/confirmpayment-alljs-desktop.min.js?v=1.73"></script>
+        <script>
+            window.addEventListener('load', function() {
+                setTimeout(() => {
+                    var elife_menu = document.getElementById("elife-menu");
+                    if (elife_menu) {
+                        var submenuProduct = document.querySelector(".submenu-product");
+                        var productMenu = document.querySelector('a[sitemapid="158"]');
+                        var brandMenu = document.querySelector('a[sitemapid="238"]');
+                        var submenuBrand = document.querySelector(".submenu-brand");
+                        var elifeSplashSection = document.getElementById("elife-splash-section");
+                        var elifeBody = document.getElementById("elife-body");
+                        var menusitemapid = current_sitemapid;
+                        if (menusitemapid != "" && elife_menu) {
+                            var link = elife_menu.querySelector('a[sitemapid="' + menusitemapid + '"]');
+                            if (link) {
+                                link.classList.add("active");
+                                var sublink = link.closest('li[class="parent"]');
+                                if (sublink) {
+                                    sublink.querySelector("a")
+                                        .classList.add("active")
+                                }
+                                var parent = link.closest('li[class="parent"]');
+                                if (parent) {
+                                    parent.querySelector("a")
+                                        .classList.add("active")
+                                }
+                            }
+                        }
+                        var mainCategoryItemLinks = document.querySelectorAll(".main-category-item-link");
+                        mainCategoryItemLinks.forEach(function(item) {
+                            item.addEventListener("mouseover", function() {
+                                var links = document.querySelectorAll(".main-category-item-link");
+                                links.forEach(function(link) {
+                                    link.classList.remove("active")
+                                });
+                                this.classList.add("active");
+                                var categoryid = this.getAttribute("categoryid");
+                                var categoryProductContentItems = document.querySelectorAll(".category-product-content-item");
+                                categoryProductContentItems.forEach(function(categoryItem) {
+                                    categoryItem.classList.remove("active")
+                                });
+                                var selectedCategory = document.getElementById("category-product-content-" + categoryid);
+                                selectedCategory.classList.add("active")
+                            })
+                        });
+                        productMenu.addEventListener("mouseover", function() {
+                            this.classList.add("active");
+                            submenuProduct.classList.add("active");
+                            elifeSplashSection.style.opacity = "0.4";
+                            elifeBody.style.opacity = "0.4";
+                            loadLazy();
+                            brandMenu.classList.remove("active");
+                            submenuBrand.classList.remove("active")
+                        });
+                        elife_menu.addEventListener("mouseleave", function() {
+                            productMenu.classList.remove("active");
+                            submenuProduct.classList.remove("active");
+                            brandMenu.classList.remove("active");
+                            submenuBrand.classList.remove("active");
+                            elifeSplashSection.removeAttribute("style");
+                            elifeBody.removeAttribute("style")
+                        });
+                        brandMenu.addEventListener("mouseover", function() {
+                            this.classList.add("active");
+                            submenuBrand.classList.add("active");
+                            elifeSplashSection.style.opacity = "0.4";
+                            elifeBody.style.opacity = "0.4";
+                            loadLazy();
+                            productMenu.classList.remove("active");
+                            submenuProduct.classList.remove("active")
+                        });
+                        var linkMenus = elife_menu.querySelectorAll("ul > li > a");
+                        linkMenus.forEach(function(linkmenu) {
+                            linkmenu.addEventListener("mouseover", function() {
+                                var sitemapid = this.getAttribute("sitemapid");
+                                if (sitemapid != "158" && sitemapid != "238") {
+                                    productMenu.classList.remove("active");
+                                    submenuProduct.classList.remove("active");
+                                    brandMenu.classList.remove("active");
+                                    submenuBrand.classList.remove("active");
+                                    elifeSplashSection.removeAttribute("style");
+                                    elifeBody.removeAttribute("style")
+                                }
+                            })
+                        })
+                    }
+                }, 0);
+                setTimeout(() => {
+                    saveAddress = function() {
+                        if (typeof Storage !== "undefined") {
+                            if (is_login == 1) {
+                                return
+                            }
+                            var shipment_district = document.getElementById("shipment-district");
+                            var shipment_ward = document.getElementById("shipment-ward");
+                            sessionStorage.setItem("card_email", document.getElementById("card-email")
+                                .value.trim());
+                            sessionStorage.setItem("shipment_name", document.getElementById("shipment-name")
+                                .value.trim());
+                            sessionStorage.setItem("shipment_address", document.getElementById("shipment-address")
+                                .value.trim());
+                            sessionStorage.setItem("shipment_phone", document.getElementById("shipment-phone")
+                                .value.trim());
+                            sessionStorage.setItem("shipment_province", document.getElementById("shipment-province")
+                                .value.trim());
+                            sessionStorage.setItem("shipment_district", shipment_district.value.trim());
+                            sessionStorage.setItem("shipment_ward", document.getElementById("shipment-ward")
+                                .value.trim());
+                            sessionStorage.setItem("shipment_district_source", shipment_district.innerHTML);
+                            sessionStorage.setItem("shipment_ward_source", shipment_ward.innerHTML)
+                        }
+                    };
+                    loadAddress = function() {
+                        if (typeof Storage !== "undefined") {
+                            if (is_login == 1) {
+                                return
+                            }
+                            document.getElementById("shipment-name")
+                                .value = sessionStorage.getItem("shipment_name");
+                            document.getElementById("shipment-address")
+                                .value = sessionStorage.getItem("shipment_address");
+                            document.getElementById("card-email")
+                                .value = sessionStorage.getItem("card_email");
+                            document.getElementById("shipment-phone")
+                                .value = sessionStorage.getItem("shipment_phone");
+                            if (sessionStorage.getItem("shipment_province")) {
+                                document.getElementById("shipment-province")
+                                    .value = sessionStorage.getItem("shipment_province")
+                            }
+                            var shipment_district = document.getElementById("shipment-district");
+                            if (sessionStorage.getItem("shipment_district_source")) {
+                                shipment_district.innerHTML = sessionStorage.getItem("shipment_district_source");
+                                shipment_district.value = "";
+                                if (sessionStorage.getItem("shipment_district")) {
+                                    shipment_district.value = sessionStorage.getItem("shipment_district")
+                                }
+                            }
+                            var shipment_ward = document.getElementById("shipment-ward");
+                            if (sessionStorage.getItem("shipment_ward_source")) {
+                                shipment_ward.innerHTML = sessionStorage.getItem("shipment_ward_source");
+                                shipment_ward.value = "";
+                                if (sessionStorage.getItem("shipment_ward")) {
+                                    shipment_ward.value = sessionStorage.getItem("shipment_ward")
+                                }
+                            }
+                        }
+                    };
+                    removeAddress = function() {
+                        if (typeof Storage !== "undefined") {
+                            sessionStorage.removeItem("shipment_name");
+                            sessionStorage.removeItem("shipment_address");
+                            sessionStorage.removeItem("card_email");
+                            sessionStorage.removeItem("shipment_phone");
+                            sessionStorage.removeItem("shipment_province");
+                            sessionStorage.removeItem("shipment_district");
+                            sessionStorage.removeItem("shipment_ward");
+                            sessionStorage.removeItem("shipment_district_source");
+                            sessionStorage.removeItem("shipment_ward_source")
+                        }
+                    };
+                    if (is_login == "0") {
+                        loadAddress()
+                    }
+
+                    function loadCardDistrict(provinceid) {
+                        var cardDistrict = document.getElementById("card-district");
+                        var cardWard = document.getElementById("card-ward");
+                        cardDistrict.innerHTML = '<option value="">Chọn quận/huyện</option>';
+                        cardWard.innerHTML = '<option value="">Chọn quận/huyện</option>';
+                        if (provinceid != "") {
+                            showloading("Vui lòng chờ");
+                            var formData = new FormData;
+                            formData.append("provinceid", provinceid);
+                            xhr("https://www.milem.vn/vi-vn/?route=module/payment/getDistrict", formData, function(res) {
+                                endloading();
+                                var response = JSON.parse(res);
+                                if (response["status"] == "failed") {
+                                    validator.showErrors(response["errors"])
+                                } else {
+                                    var districts = response["districts"];
+                                    var html = '<option value="">Chọn quận/huyện</option>';
+                                    for (var districtid in districts) {
+                                        if (districts.hasOwnProperty(districtid)) {
+                                            html += '<option value="' + districtid + '">' + districts[districtid] + "</option>"
+                                        }
+                                    }
+                                    cardDistrict.innerHTML = html;
+                                    loadCardWard(cardDistrict.value)
+                                }
+                            })
+                        }
+                    }
+
+                    function loadShipmentDistrict(provinceid) {
+                        var shipmentDistrict = document.getElementById("shipment-district");
+                        var shipmentWard = document.getElementById("shipment-ward");
+                        shipmentDistrict.innerHTML = '<option value="">Chọn quận/huyện</option>';
+                        shipmentWard.innerHTML = '<option value="">Chọn quận/huyện</option>';
+                        if (provinceid != "") {
+                            showloading("Vui lòng chờ");
+                            var formData = new FormData;
+                            formData.append("provinceid", provinceid);
+                            xhr("https://www.milem.vn/vi-vn/?route=module/payment/getDistrict", formData, function(res) {
+                                endloading();
+                                var response = JSON.parse(res);
+                                if (response["status"] == "failed") {
+                                    validator.showErrors(response["errors"])
+                                } else {
+                                    var districts = response["districts"];
+                                    var html = '<option value="">Chọn quận/huyện</option>';
+                                    for (var districtid in districts) {
+                                        if (districts.hasOwnProperty(districtid)) {
+                                            html += '<option value="' + districtid + '">' + districts[districtid] + "</option>"
+                                        }
+                                    }
+                                    shipmentDistrict.innerHTML = html;
+                                    loadShipmentWard(shipmentDistrict.value)
+                                }
+                            })
+                        }
+                    }
+
+                    function loadCardWard(districtid) {
+                        var cardWard = document.getElementById("card-ward");
+                        cardWard.innerHTML = '<option value="">Chọn quận/huyện</option>';
+                        if (districtid != "") {
+                            showloading("Vui lòng chờ");
+                            var formData = new FormData;
+                            formData.append("districtid", districtid);
+                            xhr("https://www.milem.vn/vi-vn/?route=module/payment/getWard", formData, function(res) {
+                                endloading();
+                                var response = JSON.parse(res);
+                                if (response["status"] == "failed") {
+                                    validator.showErrors(response["errors"])
+                                } else {
+                                    var html = '<option value="">Chọn phường/xã</option>';
+                                    var wards = response["wards"];
+                                    for (var wardid in wards) {
+                                        if (wards.hasOwnProperty(wardid)) {
+                                            html += '<option value="' + wardid + '">' + wards[wardid] + "</option>"
+                                        }
+                                    }
+                                    cardWard.innerHTML = html;
+                                    cardWard.value = ""
+                                }
+                            })
+                        }
+                    }
+
+                    function loadShipmentWard(districtid) {
+                        var shipmentWard = document.getElementById("shipment-ward");
+                        shipmentWard.innerHTML = '<option value="">Chọn quận/huyện</option>';
+                        if (districtid != "") {
+                            showloading("Vui lòng chờ");
+                            var formData = new FormData;
+                            formData.append("districtid", districtid);
+                            xhr("https://www.milem.vn/vi-vn/?route=module/payment/getWard", formData, function(res) {
+                                endloading();
+                                var response = JSON.parse(res);
+                                if (response["status"] == "failed") {
+                                    validator.showErrors(response["errors"])
+                                } else {
+                                    var html = '<option value="">Chọn phường/xã</option>';
+                                    var wards = response["wards"];
+                                    for (var wardid in wards) {
+                                        if (wards.hasOwnProperty(wardid)) {
+                                            html += '<option value="' + wardid + '">' + wards[wardid] + "</option>"
+                                        }
+                                    }
+                                    shipmentWard.innerHTML = html
+                                }
+                            })
+                        }
+                    }
+                    var cardProvince = document.getElementById("card-province");
+                    if (cardProvince) {
+                        cardProvince.addEventListener("change", e => {
+                            loadCardDistrict(e.target.value)
+                        })
+                    }
+                    var shipmentProvince = document.getElementById("shipment-province");
+                    if (shipmentProvince) {
+                        shipmentProvince.addEventListener("change", e => {
+                            loadShipmentDistrict(e.target.value)
+                        })
+                    }
+                    var cardDistrict = document.getElementById("card-district");
+                    if (cardDistrict) {
+                        cardDistrict.addEventListener("change", e => {
+                            loadCardWard(e.target.value)
+                        })
+                    }
+                    var shipmentDistrict = document.getElementById("shipment-district");
+                    if (shipmentDistrict) {
+                        shipmentDistrict.addEventListener("change", e => {
+                            loadShipmentWard(e.target.value)
+                        })
+                    }
+                    var softPaymentMethods = document.querySelectorAll('input[name="soft_paymentmethod"]');
+                    softPaymentMethods.forEach(function(softPaymentMethod) {
+                        softPaymentMethod.addEventListener("change", e => {
+                            if (e.target.value == "bank##P003") {
+                                animateSlideDown(".bank-checkout-section")
+                            } else {
+                                animateSlideUp(".bank-checkout-section")
+                            }
+                        })
+                    });
+                    getShippingPrice = function() {
+                        showloading("Vui lòng chờ");
+                        var shipmentDistrict = document.getElementById("shipment-district");
+                        var districtid = shipmentDistrict.value;
+                        var couponcodeControl = document.getElementById("couponcode");
+                        var couponcode = couponcodeControl.value;
+                        var formData = new FormData;
+                        formData.append("districtid", districtid);
+                        formData.append("couponcode", couponcode);
+                        xhr("https://www.milem.vn/vi-vn/?route=module/payment/getShippingPrice", formData, function(res) {
+                            endloading();
+                            var response = JSON.parse(res);
+                            var optionStandardDelivery = document.getElementById("radio-J001");
+                            if (response["status"] == "failed") {
+                                optionStandardDelivery.setAttribute("price", "call")
+                            } else {
+                                optionStandardDelivery.setAttribute("price", response["price"])
+                            }
+                            calcTotalPrice()
+                        })
+                    };
+                    var orderScrollable = document.querySelector(".order-scrollable");
+                    var orderScrollTable = document.querySelector(".order-scroll-table");
+                    var orderWrapperHeight = orderScrollable.scrollHeight;
+                    var orderContentHeight = orderScrollTable.scrollHeight;
+                    if (orderContentHeight > orderWrapperHeight) {
+                        var orderScrollTableHeader = document.querySelector(".order-scroll-table-header");
+                        orderScrollTableHeader.classList.add("has-scroll");
+                        var totalItems = document.querySelectorAll(".total-item");
+                        totalItems.forEach(function(item) {
+                            item.classList.add("has-scroll")
+                        })
+                    }
+                    calcTotalPrice = function() {
+                        var discountCouponValue = document.getElementById("discount-coupon-value");
+                        var discount_amount = discountCouponValue.innerHTML.trim();
+                        var discount_amount_value = 0;
+                        if (discount_amount.length > 0) {
+                            discount_amount_value = parseFloat(discount_amount)
+                        }
+                        var jSubTotal = document.getElementById("subtotal");
+                        var subtotal = parseFloat(jSubTotal.value);
+                        if (subtotal - discount_amount_value >= min_freeship_price) {
+                            var option = document.getElementById("radio-J001");
+                            option.setAttribute("price", "0")
+                        }
+                        var shipprice = 0;
+                        var jshipppingprice = document.getElementById("shippingprice");
+                        var jobcodeChecked = document.querySelector('input[name="jobcode"]:checked');
+                        var price_text = jobcodeChecked.getAttribute("price");
+                        if (price_text === "call") {
+                            jshipppingprice.innerHTML = "Liên hệ"
+                        } else {
+                            shipprice = parseInt(price_text) || 0;
+                            jshipppingprice.innerHTML = shipprice.formatMoney() + "đ"
+                        }
+                        var newprice = subtotal + shipprice - discount_amount_value;
+                        var jcarttotal = document.getElementById("carttotal");
+                        jcarttotal.innerHTML = newprice.formatMoney()
+                    };
+                    var jobcodes = document.querySelectorAll('input[name="jobcode"]');
+                    jobcodes.forEach(function(item) {
+                        item.addEventListener("change", function() {
+                            calcTotalPrice()
+                        })
+                    });
+                    processPayment = function() {
+                        if (validatorPaymentForm.valid()) {
+                            getShippingPrice();
+                            var checkoutLocation = document.getElementById("checkout-location");
+                            var checkoutPayment = document.getElementById("checkout-payment");
+                            checkoutLocation.classList.add("d-none");
+                            checkoutPayment.classList.remove("d-none");
+                            document.body.scrollTop = 0;
+                            document.documentElement.scrollTop = 0;
+                            if (is_login == "0") {
+                                saveAddress()
+                            }
+                            if (document.getElementById("shipment-province")
+                                .value != "P79") {
+                                var optionFastDelivery = document.getElementById("radio-J002");
+                                if (optionFastDelivery) {
+                                    optionFastDelivery.parentNode.parentNode.parentNode.removeChild(optionFastDelivery.parentNode.parentNode)
+                                }
+                            }
+                        }
+                    };
+                    goToAddress = function() {
+                        var checkoutLocation = document.getElementById("checkout-location");
+                        var checkoutPayment = document.getElementById("checkout-payment");
+                        checkoutLocation.classList.remove("d-none");
+                        checkoutPayment.classList.add("d-none")
+                    };
+                    var jcouponcode = document.getElementById("couponcode");
+                    ["keyup", "change"].forEach(evt => {
+                        jcouponcode.addEventListener(evt, e => {
+                            document.querySelector(".invalid-couponcode")
+                                .style.display = "none";
+                            document.getElementById("coupon-info-sucess")
+                                .style.display = "none";
+                            document.getElementById("lb-couponcode")
+                                .innerHTML = "";
+                            document.getElementById("lb-discount-coupon-amount")
+                                .innerHTML = "";
+                            document.getElementById("discount-coupon-value")
+                                .innerHTML = "";
+                            calcTotalPrice()
+                        }, false)
+                    });
+                    document.getElementById("btnApplyPromotionCode")
+                        .addEventListener("click", function() {
+                            showloading("Vui lòng chờ");
+                            var jPaymentForm = document.getElementById("paymentForm");
+                            var formData = new FormData(jPaymentForm);
+                            xhr("https://www.milem.vn/vi-vn/?route=module/payment/checkCouponCode", formData, function(res) {
+                                endloading();
+                                var response = JSON.parse(res);
+                                var errors = response["errors"];
+                                if (response["status"] == "failed") {
+                                    for (var error_code in errors) {
+                                        if (errors.hasOwnProperty(error_code)) {
+                                            if (error_code == "couponcode") {
+                                                document.querySelector(".invalid-couponcode")
+                                                    .style.display = "table-row";
+                                                document.getElementById("couponcode-error")
+                                                    .innerHTML = errors[error_code];
+                                                document.getElementById("coupon-info-sucess")
+                                                    .style.display = "none";
+                                                document.getElementById("lb-couponcode")
+                                                    .innerHTML = "";
+                                                document.getElementById("lb-discount-coupon-amount")
+                                                    .innerHTML = "";
+                                                document.getElementById("discount-coupon-value")
+                                                    .innerHTML = ""
+                                            } else {
+                                                var json = {};
+                                                json[error_code] = errors[error_code];
+                                                validator.showErrors(json)
+                                            }
+                                        }
+                                    }
+                                } else {
+                                    document.querySelector(".invalid-couponcode")
+                                        .style.display = "none";
+                                    document.getElementById("coupon-info-sucess")
+                                        .style.display = "block";
+                                    document.getElementById("lb-couponcode")
+                                        .innerHTML = "Mã:&nbsp;" + response["couponcode"];
+                                    document.getElementById("lb-discount-coupon-amount")
+                                        .innerHTML = "-" + response["discount_coupon_format"];
+                                    document.getElementById("discount-coupon-value")
+                                        .innerHTML = response["discount_coupon"];
+                                    document.getElementById("radio-J001")
+                                        .setAttribute("price", response["shipping_price"])
+                                }
+                                calcTotalPrice()
+                            })
+                        });
+                }, 0);
+                setTimeout(() => {
+                    var jobs = JSON.parse("[{\"id\":\"1\",\"jobcode\":\"J001\",\"languageid\":\"vn\",\"jobname\":\"Giao h\\u00e0ng ti\\u00eau chu\\u1ea9n  \",\"description\":\"\",\"price\":\"0\"},{\"id\":\"3\",\"jobcode\":\"J002\",\"languageid\":\"vn\",\"jobname\":\"Giao h\\u00e0ng nhanh\",\"description\":\"\",\"price\":\"0\"}]");
+                    var jPaymentForm = document.getElementById("paymentForm");
+                    validatorPaymentForm = new EValidation("paymentForm", {
+                        rules: {
+                            shipment_name: {
+                                required: true
+                            },
+                            shipment_address: {
+                                required: true
+                            },
+                            shipment_province: {
+                                required: true
+                            },
+                            shipment_district: {
+                                required: true
+                            },
+                            shipment_ward: {
+                                required: true
+                            },
+                            shipment_phone: {
+                                required: true
+                            },
+                            email: {
+                                required: true,
+                                email: true
+                            }
+                        },
+                        messages: {
+                            shipment_name: {
+                                required: "Vui lòng nhập họ tên."
+                            },
+                            shipment_address: {
+                                required: "Vui lòng nhập địa chỉ"
+                            },
+                            shipment_province: {
+                                required: "Vui lòng nhập tỉnh/thành"
+                            },
+                            shipment_district: {
+                                required: "Vui lòng nhập quận/huyện"
+                            },
+                            shipment_ward: {
+                                required: "Vui lòng nhập phường/xã"
+                            },
+                            shipment_phone: {
+                                required: "Vui lòng nhập điện thoại"
+                            },
+                            email: {
+                                required: "Vui lòng nhập email.",
+                                email: "Vui lòng nhập email."
+                            }
+                        }
+                    });
+                    submitOrder = function() {
+                        showloading("Vui lòng chờ");
+                        var jPaymentForm = document.getElementById("paymentForm");
+                        var formData = new FormData(jPaymentForm);
+                        xhr("https://www.milem.vn/vi-vn/?route=module/payment/payOrder", formData, function(res) {
+                            var response = JSON.parse(res);
+                            var errors = response["errors"];
+                            if (response["status"] == "failed") {
+                                endloading();
+                                for (var error_code in errors) {
+                                    if (errors.hasOwnProperty(error_code)) {
+                                        if (error_code == "couponcode") {
+                                            document.querySelector(".invalid-couponcode")
+                                                .style.display = "table-row";
+                                            document.getElementById("couponcode-error")
+                                                .innerHTML = errors[error_code];
+                                            document.getElementById("coupon-info-sucess")
+                                                .style.display = "none";
+                                            document.getElementById("lb-couponcode")
+                                                .innerHTML = "";
+                                            document.getElementById("lb-discount-coupon-amount")
+                                                .innerHTML = "";
+                                            document.getElementById("discount-coupon-value")
+                                                .innerHTML = ""
+                                        } else {
+                                            var json = {};
+                                            json[error_code] = errors[error_code];
+                                            validatorPaymentForm.showErrors(json)
+                                        }
+                                    }
+                                }
+                            } else {
+                                var orderid = response["orderid"];
+                                if (orderid.length > 0) {
+                                    window.location.href = "https://www.milem.vn/vi-vn/payment-success.html?orderid=" + orderid
+                                }
+                            }
+                        })
+                    };
+                    document.querySelector(".btnPlaceOrder")
+                        .addEventListener("click", function() {
+                            if (validatorPaymentForm.valid()) {
+                                var soft_paymentmethod = document.querySelector('input[name="soft_paymentmethod"]:checked')
+                                    .value;
+                                if (soft_paymentmethod == "bank##P003") {
+                                    var bank_selected = document.querySelector('input[name="bank"]:checked')
+                                        .value;
+                                    if (typeof bank_selected === "undefined") {
+                                        document.querySelector(".select-bank-message")
+                                            .style.display = "block";
+                                        document.getElementById("softjob-P003")
+                                            .focus();
+                                        return false
+                                    }
+                                }
+                                submitOrder()
+                            }
+                        });
+                }, 0);
+                setTimeout(() => {
+                    loadEventModuleLogin = function() {
+                        var locationUrl = new URL(window.location.href);
+                        var return_url = locationUrl.searchParams.get("return");
+                        var login_failed = locationUrl.searchParams.get("login_failed");
+                        var jloginform = document.getElementById("login-form");
+                        if (jloginform) {
+                            var jloginform_errorpanel = jloginform.querySelector(".error-panel");
+                            if (login_failed == "1") {
+                                jloginform_errorpanel.html("Đăng nhập không thành công.");
+                                jloginform_errorpanel.show()
+                            }
+                            var validatorLoginForm = new EValidation("login-form", {
+                                rules: {
+                                    email: {
+                                        required: true,
+                                        email: true
+                                    },
+                                    password: {
+                                        required: true
+                                    }
+                                },
+                                messages: {
+                                    email: {
+                                        required: "Vui lòng nhập email.",
+                                        email: "Vui lòng nhập email."
+                                    },
+                                    password: {
+                                        required: "Vui lòng nhập mật khẩu."
+                                    }
+                                }
+                            });
+                            var loginSubmitForm = function() {
+                                showloading("Vui lòng chờ");
+                                var formLogin = document.getElementById("login-form");
+                                var formData = new FormData(document.getElementById("login-form"));
+                                xhr("?route=module/login/checkLogin", formData, function(res) {
+                                    endloading();
+                                    var response = JSON.parse(res);
+                                    if (response["status"] == "failed") {
+                                        var errorPanel = formLogin.querySelector(".error-panel");
+                                        errorPanel.innerHTML = response["message"];
+                                        errorPanel.style.display = "block";
+                                        validatorLoginForm.showErrors(response["errors"])
+                                    } else {
+                                        return_url = return_url ? return_url : document.getElementById("return_url")
+                                            .value;
+                                        window.location.href = return_url != "" ? return_url : "https://www.milem.vn/vi-vn/"
+                                    }
+                                })
+                            };
+                            jloginform.onsubmit = function(e) {
+                                e.preventDefault();
+                                if (validatorLoginForm.valid()) {
+                                    loginSubmitForm()
+                                }
+                            }
+                        }
+                    };
+                }, 0);
+                setTimeout(() => {
+                    loadEventModuleRegister = function() {
+                        var registerForm = document.getElementById("registerForm");
+                        if (registerForm) {
+                            var validatorRegister = new EValidation("registerForm", {
+                                rules: {
+                                    email: {
+                                        required: true,
+                                        email: true
+                                    },
+                                    fullname: {
+                                        required: true
+                                    },
+                                    password: {
+                                        required: true,
+                                        minlength: 6
+                                    },
+                                    confirmpassword: {
+                                        required: true,
+                                        equalTo: "password"
+                                    },
+                                    phone: {
+                                        required: true
+                                    }
+                                },
+                                messages: {
+                                    fullname: {
+                                        required: "Vui lòng nhập họ tên."
+                                    },
+                                    email: {
+                                        required: "Vui lòng nhập email.",
+                                        email: "Vui lòng nhập email."
+                                    },
+                                    password: {
+                                        required: "Vui lòng nhập mật khẩu.",
+                                        minlength: "Mật khẩu chứa ít nhất 6 ký tự."
+                                    },
+                                    confirmpassword: {
+                                        required: "Vui lòng nhập xác nhận mật khẩu.",
+                                        equalTo: "Xác nhận mật khẩu không trùng khớp"
+                                    },
+                                    phone: {
+                                        required: "Vui lòng nhập số điện thoại"
+                                    }
+                                }
+                            });
+                            registerForm.onsubmit = function(e) {
+                                e.preventDefault();
+                                var dateformat = /^(0?[1-9]|[12][0-9]|3[01])[\/](0?[1-9]|1[012])[\/]\d{4}$/;
+                                var birthday = document.getElementById("birthday")
+                                    .value.trim();
+                                var birthday_error = document.getElementById("birthday-error");
+                                var valid_birthday = true;
+                                if (!birthday.match(dateformat)) {
+                                    birthday_error.innerHTML = "Ngày sinh không đúng";
+                                    valid_birthday = false
+                                } else {
+                                    birthday_error.innerHTML = ""
+                                }
+                                if (validatorRegister.valid() && valid_birthday) {
+                                    registerSubmitForm()
+                                }
+                            }
+                        }
+                    };
+                }, 0);
+            }, false);
+        </script>
+        <div>
+            <link rel="stylesheet" href="https://www.milem.vn/smartcore/template/default/cachedb/confirmpayment-allcss-desktop.min.css?v=1.72" media="all" onload="this.media='all'">
+        </div>
+    </body>
+
+</html>

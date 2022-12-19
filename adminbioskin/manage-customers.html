@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bioskin</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./adminthebioskin/assets/img/logo/bioskinlogo.png" type="image/x-icon">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="adminthebioskin/css/style.css">
+
+</head>
+
+<body>
+    <div class="layer"></div>
+    <!-- ! Body -->
+    <div class="page-flex">
+        <!-- ! Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-start">
+                <div class="sidebar-head">
+                    <a href="./admin" class="logo-wrapper" title="Home">
+                        <span class="sr-only">Home</span>
+                        <span class="icon logo" aria-hidden="true"><img src="./adminthebioskin/assets/img/logo/bioskinlogo.png" alt=""></span>
+                        <h2>THE BIOSKIN </h2>
+                       <!-- !<img src="./adminthebioskin/assets/img/logo/slogan_logo_transparent.svg" alt="" style="height: 45px; width: auto;"> -->
+
+                    </a>
+                    <button class="sidebar-toggle transparent-btn" title="Menu" type="button">
+                        <span class="sr-only">Toggle menu</span>
+                        <span class="icon menu-toggle" aria-hidden="true"></span>
+                    </button>
+                </div>
+                <div class="sidebar-body">
+                    <span class="system-menu__title">Menu</span>
+                    <ul class="sidebar-body-menu">
+                        <li>
+                            <a class="" href="today-orders.html"><span class="icon order-today" aria-hidden="true"></span> Đơn hàng hôm nay</a>
+                        </li>
+
+                        <li>
+                            <a class="active" href="history.html">
+                                <span class="icon history" aria-hidden="true"></span>Thông tin cá nhân
+
+                            </a>
+                        </li>
+                        <li>
+                            <a class="" href="#">
+                                <span class="icon manage-cus" aria-hidden="true"></span>Quản lý khách hàng
+                            </a>
+
+                        </li>
+
+                    </ul>
+                   
+                </div>
+            </div>
+
+    
+        </aside>
+        <div class="main-wrapper">
+            <!-- ! Main nav -->
+            <nav class="main-nav--bg">
+                <div class="container main-nav">
+                    <div class="main-nav-start">
+                        <div class="search-wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                            <input type="text" placeholder="Nhập ID đơn hàng cần tìm..." required="">
+                        </div>
+                    </div>
+                    <h2 class="main-title">Đơn hàng hôm nay</h2>
+
+                    <div class="main-nav-end">
+                        <button class="sidebar-toggle transparent-btn" title="Menu" type="button">
+        <span class="sr-only">Toggle menu</span>
+        <span class="icon menu-toggle--gray" aria-hidden="true"></span>
+                        <button class="theme-switcher gray-circle-btn" type="button" title="Switch theme">
+        <span class="sr-only">Switch theme</span>
+        <i class="sun-icon" data-feather="sun" aria-hidden="true"></i>
+        <i class="moon-icon" data-feather="moon" aria-hidden="true"></i>
+      </button>
+                        <div class="notification-wrapper">
+                            <button class="gray-circle-btn dropdown-btn" title="To messages" type="button">
+          <span class="sr-only">To messages</span>
+          <span class="icon notification active" aria-hidden="true"></span>
+        </button>
+                            <ul class="users-item-dropdown notification-dropdown dropdown">
+                                <li class=" d-flex align-items-center">
+                                    <a href="##">
+                                        <div class="notification-dropdown-icon info">
+                                            <i data-feather="check"></i>
+                                        </div>
+                                        <div class="notification-dropdown-text">
+                                            <span class="notification-dropdown__title d-flex align-items-center">Đơn hàng mới <br> BIO-4110601</span>
+
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="##">
+                                        <div class="notification-dropdown-icon danger">
+                                            <i data-feather="info" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="notification-dropdown-text">
+                                            <span class="notification-dropdown__title">Đơn hàng bị hủy <br> BIO-4110599</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="##">
+                                        <div class="notification-dropdown-icon info">
+                                            <i data-feather="check" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="notification-dropdown-text">
+                                            <span class="notification-dropdown__title">Đơn hàng mới <br> BIO-4110602</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="##">
+                                        <div class="notification-dropdown-icon info">
+                                            <i data-feather="check" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="notification-dropdown-text">
+                                            <span class="notification-dropdown__title">Đơn hàng mới <br> BIO-4110603</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="##">
+                                        <div class="notification-dropdown-icon info">
+                                            <i data-feather="check" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="notification-dropdown-text">
+                                            <span class="notification-dropdown__title">Đơn hàng mới <br> BIO-4110604</span>
+                                        </div>
+                                    </a>
+                                </li>
+                        
+                            </ul>
+                        </div>
+                        <div class="nav-user-wrapper">
+                            <button href="##" class="nav-user-btn dropdown-btn" title="My profile" type="button">
+          <span class="sr-only">My profile</span>
+          <span class="nav-user-img">
+            <picture><source srcset="./adminthebioskin/assets/img/avatar/avatar.webp" type="image/webp"><img src="./adminthebioskin/assets/img/avatar/avatar.png" alt="User name"></picture>
+          </span>
+        </button>
+                            <ul class="users-item-dropdown nav-user-dropdown dropdown">
+                                <li style="padding: 10px;">
+                                    <a href="profile.html">
+                                        <i data-feather="user" aria-hidden="true"></i>
+                                        <span>Profile</span>
+                                    </a>
+                                </li>
+                                <li style="padding: 10px;">
+                                    <a class="danger" href="##">
+                                        <i data-feather="log-out" aria-hidden="true"></i>
+                                        <span>Đăng xuất</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- ! Main -->
+            <div class="container" style="padding-top: 20px; padding-right: 20px;"> <button class="action-today-order transparent-btn action-cancel" type="button " title="Cancel order " style="position: absolute; right: 4%;">
+                <div class="contrast-icon"><img src="./adminthebioskin/assets/img/svg/trash-2.svg" ></div>
+            </button></div>
+
+            <div class="container main ">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="users-table table-wrapper">
+                            <table class="m-auto">
+                                <thead style="display: table; width: fit-content;">
+                                    <tr class="users-table-info" style=" text-align:center">
+                                        <th class="col-select">Select</th>
+                                        <th class="col-customer-id">Customer ID</th>
+                                        <th class="col-name">Name</th>
+                                        <th class="col-avt">Avatar</th>
+                                        
+                                        <th class="col-phone">Phone</th>
+                                        <th class="col-address">Address</th>
+                                        <th class="col-email">Email</th>
+                                        
+                                        <th class="col-action-edit">Edit</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="col-select"><input type="checkbox"></td>
+                                        <td class="primary-key col-customer-id viewDetail">BIC-145361</td>
+                                        <td class="col-name viewDetail">
+                                            <div class="name-text">Nguyễn Văn Hải</div>
+                                        </td>
+                                        <td class="col-avt viewDetail">
+                                            <img class="avt" src="./adminthebioskin/assets/img/avatar/avatar.png" alt="face customer">
+                                        </td>
+                                    
+                                        <td class="col-phone viewDetail">0356781109</td>
+                                        <td class="col-address viewDetail">
+                                            <div class="medium-text">11B Nguyễn Xiển TP. Thủ Đức</div>
+                                        </td>
+                                        <td class="col-email viewDetail">
+                                            <div class="name-text">bic123@gmail.com</div>
+                                        </td>
+                                        
+                                        <td class="col-action-edit ">
+                                            <button class="action-today-order transparent-btn action-accept editBtn" type="button " title="Edit">
+                                                    <div class="contrast-icon"><img src="./adminthebioskin/assets/img/svg/edit.svg "></div>  
+                                             </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-select"><input type="checkbox"></td>
+                                        <td class="primary-key col-customer-id viewDetail">BIC-145364</td>
+                                        <td class="col-name viewDetail">
+                                            <div class="name-text">Nguyễn Ngọc Bảo</div>
+                                        </td>
+                                        <td class="col-avt viewDetail">
+                                            <img class="avt" src="./adminthebioskin/assets/img/avatar/avatar.png" alt="face customer">
+                                        </td>
+                                    
+                                        <td class="col-phone viewDetail">0964763245</td>
+                                        <td class="col-address viewDetail">
+                                            <div class="medium-text">234 Tô Ngọc Vân TP. Thủ Đức</div>
+                                        </td>
+                                        <td class="col-email viewDetail">
+                                            <div class="name-text">bic123@gmail.com</div>
+                                        </td>
+                                        
+                                        <td class="col-action-edit ">
+                                            <button class="action-today-order transparent-btn action-accept editBtn" type="button " title="Edit">
+                                                    <div class="contrast-icon"><img src="./adminthebioskin/assets/img/svg/edit.svg "></div>  
+                                             </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-select"><input type="checkbox"></td>
+                                        <td class="primary-key col-customer-id viewDetail">BIC-145366</td>
+                                        <td class="col-name viewDetail">
+                                            <div class="name-text">Phạm Thế Hiển</div>
+                                        </td>
+                                        <td class="col-avt viewDetail">
+                                            <img class="avt" src="./adminthebioskin/assets/img/avatar/avatar.png" alt="face customer">
+                                        </td>
+                                    
+                                        <td class="col-phone viewDetail">0976285436</td>
+                                        <td class="col-address viewDetail">
+                                            <div class="medium-text">123/1 Nguyễn Văn Tăng TP. Thủ Đức</div>
+                                        </td>
+                                        <td class="col-email viewDetail">
+                                            <div class="name-text">bic123@gmail.com</div>
+                                        </td>
+                                        
+                                        <td class="col-action-edit ">
+                                            <button class="action-today-order transparent-btn action-accept editBtn" type="button " title="Edit">
+                                                    <div class="contrast-icon"><img src="./adminthebioskin/assets/img/svg/edit.svg "></div>  
+                                             </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-select"><input type="checkbox"></td>
+                                        <td class="primary-key col-customer-id viewDetail">BIC-145362</td>
+                                        <td class="col-name viewDetail">
+                                            <div class="name-text">Trần Niên Bảo</div>
+                                        </td>
+                                        <td class="col-avt viewDetail">
+                                            <img class="avt" src="./adminthebioskin/assets/img/avatar/avatar.png" alt="face customer">
+                                        </td>
+                                    
+                                        <td class="col-phone viewDetail">0982342564</td>
+                                        <td class="col-address viewDetail">
+                                            <div class="medium-text">97 Võ Văn Ngân TP. Thủ Đức</div>
+                                        </td>
+                                        <td class="col-email viewDetail">
+                                            <div class="name-text">bic123@gmail.com</div>
+                                        </td>
+                                        
+                                        <td class="col-action-edit ">
+                                            <button class="action-today-order transparent-btn action-accept editBtn" type="button " title="Edit">
+                                                    <div class="contrast-icon"><img src="./adminthebioskin/assets/img/svg/edit.svg "></div>  
+                                             </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+   <!-- The Modal -->
+   <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="row-modal align-items-center">
+
+        <div class="modal-content col-lg-6 col-md-6 col-sm-6">
+            <div class="modal-header ">
+                <span id="modal-close" class="close">&times;</span>
+                <h2 style="text-align: center; padding: 10px;">Thông tin khách hàng</h2>
+                <div class="align-center"> <img class="img-cus-detail" src="./adminthebioskin/assets/img/avatar/avatar.png"></img>
+                </div>
+
+            </div>
+
+            <div class="modal-body ">
+                <div class="product-details " style="background-color: white; ">
+                    <hr class="mx-3 ">
+                    <div class="col-lg-10 col-md-6 col-sm-6 mx-top-modal">
+                        <div class="d-flex flex-row justify-content-between align-items-center p-2 ">Mã khách hàng:
+                            <div>BIC-145362</div>
+                        </div>
+                
+                        <div class="d-flex flex-row justify-content-between align-items-center p-2 ">Họ và tên:
+                            <div>Nguyễn Ngọc Bảo</div>
+                        </div>
+                        
+                        <div class="d-flex flex-row justify-content-between align-items-center p-2 ">Số điện thoại:
+                            <div>0964763245</div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-between align-items-center p-2 ">Email:
+                            <div>bic123@gmail.com</div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-between align-items-center p-2 ">Địa chỉ:
+                            <div class="note-modal">234 Tô Ngọc Vân TP. Thủ Đức</div>
+                        </div>
+
+
+                    </div>
+                    <hr class="mx-3 ">
+
+                </div>
+
+                <div class="modal-footer align-items-center ">
+                    <div class="align-center m-3">
+                        <button class="action-today-order transparent-btn action-edit m-3" id="edt-detail" type="button " title="Edit">
+                            <img src="./adminthebioskin/assets/img/svg/edit-white.svg">
+                          </button>
+                        <button class="action-today-order transparent-btn action-cancel m-3" type="button " title="Delete">
+                            <img src="./adminthebioskin/assets/img/svg/trash-2.svg" >
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Edit Modal -->
+<div id="editModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="row-modal align-items-center">
+
+        <div class="modal-content col-lg-6 col-md-6 col-sm-6">
+            <div class="modal-header ">
+                <span id="modal-close" class="close">&times;</span>
+                <h2 style="text-align: center; padding: 10px;">Thông tin khách hàng</h2>
+                <div class="align-center"> <img class="img-cus-detail" src="./adminthebioskin/assets/img/avatar/avatar.png"></img>
+                </div>
+                <div class="" style="margin-right: auto; margin-left: auto; width: fit-content; height: auto; padding-bottom: 10px;">
+                    <label style="font-size: 16px;">Đổi avatar khách hàng</label>
+                    <input type="file" class="form-control" style="height: fit-content;">
+                </div>
+            </div>
+
+            <div class="modal-body ">
+                <div class="product-details " style="background-color: white; ">
+                    <hr class="mx-3 ">
+                    <div class="col-lg-10 col-md-6 col-sm-6 mx-top-modal">
+                        <div class="d-flex flex-row justify-content-between align-items-center p-2 ">Mã khách hàng:
+                            <input type="text" value="MUC-12345678" style="direction: rtl;"></input>
+                        </div>
+                        
+                        <div class="d-flex flex-row justify-content-between align-items-center p-2 ">Họ và tên:
+                            <input type="text" value="Nguyễn Ngọc Bảo" style="direction: rtl;"></input>
+                        </div>
+                        
+                        <div class="d-flex flex-row justify-content-between align-items-center p-2 ">Số điện thoại:
+                            <input type="text" value="0356781109" style="direction: rtl;"></input>
+                        </div>
+                        <div class="d-flex flex-row justify-content-between align-items-center p-2 ">Email:
+                            <input type="text" value="bic123@gmail.com" style="direction: rtl;"></input>
+                        </div>
+                        <div class="d-flex flex-row justify-content-between align-items-center p-2">Địa chỉ:
+                            <textarea name="" id="" cols="35" rows="5" style="border-radius: 6px; background-color: #eff0f6; min-height: 100px;min-width: 300px; border: solid transparent 2px!important;">234 Tô Ngọc Vân TP. Thủ Đức</textarea>
+
+                        </div>
+
+
+                    </div>
+                    <hr class="mx-3 ">
+
+                </div>
+
+                <div class="modal-footer align-items-center ">
+                    <div class="align-center m-3">
+                        <button class="action-today-order transparent-btn action-save m-3" type="button " title="Save">
+                            <img src="./adminthebioskin/assets/img/svg/save.svg">
+                          </button>
+                        <button class="action-today-order transparent-btn action-cancel btn-cancel m-3" type="button " title="Cancel">
+                            <img src="./adminthebioskin/assets/img/svg/x-square.svg" >
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Chart library -->
+    
+    <script src="adminthebioskin/plugins/chart.js"></script>
+    <!-- Icons library -->
+    <script src="adminthebioskin/plugins/feather.js"></script>
+    <!-- Custom scripts -->
+    <script src="adminthebioskin/js/script.js"></script>
+</body>
+
+</html>
